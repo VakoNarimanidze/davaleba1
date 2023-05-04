@@ -3,18 +3,29 @@
     margin: 0;
     padding: 0;
 }
-
-img {
-    display: inline-block;
-    width: 760px;
-    height: 300px;
-    position: relative;
+body{
+    width: 100%;
 }
-
+.container{
+    width: 100%;
+}
+img {
+   display: inline-block;
+   width: 768px;
+}
+.logo1{
+    width: 550px;
+    margin-bottom: 90px;
+}
+.logo2{
+    margin-left: 269px;
+    width: 700px;
+    margin-bottom: 90px;
+}
 h1 {
     position: absolute;
     z-index: 1;
-    margin: 184px 0 0 661px;
+    margin: 114px 0 0 481px;
     font-weight: 800;
     font-size: 70px;
     line-height: 82px;

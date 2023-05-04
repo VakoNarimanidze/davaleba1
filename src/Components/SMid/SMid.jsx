@@ -1,4 +1,4 @@
-import 'SMid.css'
+import './SMid.css'
 
 
 export default function SMid() {

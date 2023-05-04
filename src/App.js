@@ -1,8 +1,9 @@
 
 import './App.css';
-import Header from './componenets/Header/Header';
-import Mid from './componenets/Mid/Mid';
-import SMid from './componenets/SMid/SMid';
+import Header from './Components/Header/Header'
+import Mid from './Components/Mid/Mid'
+import SMid from './Components/SMid/SMid';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Mid />
       <SMid />
+      <Footer />
     </div>
   );
 }
