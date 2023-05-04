@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1500px;
+}
+
+.Fbox-1{
+    margin-left: 100px;
+}
+.Fbox-1 h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.Fbox-1 h5 {
+    margin-left: 120px;
+
+}
+
+.Fbox-1 p {
+    margin-bottom: 20px;
+}
+
+.nums {
+    margin-left: 85px;
+}
+
+h3 {
+    color: #274C5B;
+}
+
+h5 {
+    color: #525C60;
+}
+
+p {
+    color: #525C60;
+}
+.after{
+    content: '';
+    width: 5px;
+    height: 200px;
+    color: rgb(0, 174, 255);
+}
+.leaf {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.Fbox-2 .footer-links img{
+    width: 21px;
+    height: 20px;
+}
+
+.Fbox-2 img {
+    margin-left: 100px;
+}
+
+.Fbox-2 h3 {
+    display: inline-block;
+    vertical-align: super;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.Fbox-2 p {
+    font-size: 18px;
+    line-height: 30px;
+    align-self: center;
+    width: 450px;
+}
+
+.Fbox-2 span {
+    margin-left: 35px;
+}
+
+.footer-links {
+    margin: 40px 0px 0 90px;
+}
+
+.footer-links img {
+    margin-left: 50px;
+}
+
+.footer-links .first-child {
+    margin-left: 0;
+}
+
+.Fbox-3 h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.Fbox-3 p {
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+}
