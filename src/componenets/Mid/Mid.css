@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mid-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-items: center;
+    row-gap: 20px;
+}
+
+img {
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+}
+
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+    color: #274C5B;
+    cursor: pointer;
+}
+
+h6 {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #7EB693;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+}

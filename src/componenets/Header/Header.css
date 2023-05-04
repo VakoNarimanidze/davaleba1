@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: inline-block;
+    width: 760px;
+    height: 300px;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    z-index: 1;
+    margin: 184px 0 0 661px;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    width: 582px;
+    height: 82px;
+    color: #274C5B;
+    font-style: normal;
+}
